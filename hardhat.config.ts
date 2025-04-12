@@ -1,4 +1,5 @@
 import {HardhatUserConfig} from 'hardhat/config';
+import "@typechain/hardhat";
 import '@nomicfoundation/hardhat-viem';
 import '@nomicfoundation/hardhat-verify';
 import {config as dotenvConfig} from 'dotenv';
@@ -9,6 +10,17 @@ const config: HardhatUserConfig = {
     solidity: {
         version: '0.8.28',
         settings: {optimizer: {enabled: true, runs: 200}},
+    },
+    paths: {
+        sources: "./contracts",
+        artifacts: "./artifacts",
+        cache: "./cache",
+        tests: "./test"
+    },
+    typechain: {
+        outDir: "typechain-types",
+        target: "ethers-v6",
+        alwaysGenerateOverloads: true
     },
     networks: {
         polygonPos: {

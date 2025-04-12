@@ -1,18 +1,26 @@
-import {run} from 'hardhat';
-import * as dotenv from 'dotenv';
+import { run } from "hardhat";
+import * as dotenv from "dotenv";
 
 dotenv.config();
 
 async function main() {
-    await run('verify:verify', {
-        address: process.env.CONTRACT_ADDRESS!,
-        constructorArguments: [process.env.LKS_WALLET!],
-        contract: `contracts/${process.env.CONTRACT_NAME}.sol:${process.env.CONTRACT_NAME}`,
+    await run("verify:verify", {
+        address: process.env.IMPLEMENTATION_ADDRESS!,
+        constructorArguments: [],
+        contract: "contracts/upgrades/LukasV1.sol:LukasV1",
     });
-    console.log('✅ Verificado en Polygonscan');
+
+    await run("verify:verify", {
+        address: process.env.PROXY_ADDRESS!,
+        constructorArguments: [
+            process.env.IMPLEMENTATION_ADDRESS!,
+            process.env.PROXY_ADMIN_ADDRESS!,
+            process.env.INITIALIZER_DATA!
+        ],
+        contract: "@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol:TransparentUpgradeableProxy",
+    });
+
+    console.log("✅ Verificación completada en Polygonscan");
 }
 
-main().catch((error) => {
-    console.error(error);
-    process.exitCode = 1;
-});
+main().catch(console.error);
