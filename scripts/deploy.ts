@@ -1,6 +1,5 @@
 import hre from 'hardhat';
 const { ethers, upgrades } = hre;
-
 import fs from 'fs';
 
 async function main() {
@@ -9,10 +8,12 @@ async function main() {
 
   const LukasFactory = await ethers.getContractFactory('LukasV1');
 
-  const proxy = await upgrades.deployProxy(LukasFactory, [deployer.address], {
-    initializer: 'initialize',
-  });
-  await proxy.deployed();
+  const deployOptions: any = { initializer: 'initialize', gasLimit: 6000000 };
+  const proxy = await upgrades.deployProxy(
+    LukasFactory,
+    [deployer.address],
+    deployOptions,
+  );
 
   const proxyAddress = await proxy.getAddress();
   console.log(`Proxy deployed at: ${proxyAddress}`);
