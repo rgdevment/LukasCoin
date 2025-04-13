@@ -1,26 +1,35 @@
-import { run } from "hardhat";
-import * as dotenv from "dotenv";
-
-dotenv.config();
+import { run } from 'hardhat';
+import fs from 'fs';
+import path from 'path';
 
 async function main() {
-    await run("verify:verify", {
-        address: process.env.IMPLEMENTATION_ADDRESS!,
-        constructorArguments: [],
-        contract: "contracts/upgrades/LukasV1.sol:LukasV1",
-    });
+  const filePath = path.join(__dirname, '..', 'deployment.json');
+  if (!fs.existsSync(filePath)) {
+    console.error('Deployment file not found at', filePath);
+    process.exit(1);
+  }
 
-    await run("verify:verify", {
-        address: process.env.PROXY_ADDRESS!,
-        constructorArguments: [
-            process.env.IMPLEMENTATION_ADDRESS!,
-            process.env.PROXY_ADMIN_ADDRESS!,
-            process.env.INITIALIZER_DATA!
-        ],
-        contract: "@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol:TransparentUpgradeableProxy",
-    });
+  const deploymentData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  const implementationAddress = deploymentData.IMPLEMENTATION_ADDRESS;
 
-    console.log("✅ Verificación completada en Polygonscan");
+  console.log(
+    'Verifying implementation contract at address:',
+    implementationAddress,
+  );
+
+  try {
+    await run('verify:verify', {
+      address: implementationAddress,
+    });
+    console.log('Verification successful!');
+  } catch (error) {
+    console.error('Verification failed:', error);
+  }
 }
 
-main().catch(console.error);
+main()
+  .then(() => process.exit(0))
+  .catch((error) => {
+    console.error('Script encountered an error:', error);
+    process.exit(1);
+  });

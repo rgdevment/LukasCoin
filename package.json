@@ -5,7 +5,9 @@
   "scripts": {
     "build": "npx hardhat clean && npx hardhat compile",
     "deploy": "npx hardhat run scripts/legacy/deploy.ts --network amoy",
-    "verify": "npx hardhat run scripts/verify.ts --network amoy"
+    "verify": "npx hardhat run scripts/verify.ts --network amoy",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\""
   },
   "keywords": [],
   "author": "",
@@ -23,10 +25,16 @@
     "@types/chai-as-promised": "^8.0.2",
     "@types/mocha": "^10.0.10",
     "@types/node": "^22.14.1",
+    "@typescript-eslint/eslint-plugin": "^8.29.1",
+    "@typescript-eslint/parser": "^8.29.1",
     "chai": "^5.2.0",
     "chai-as-promised": "^8.0.1",
     "dotenv": "^16.5.0",
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
     "hardhat": "^2.23.0",
+    "prettier": "^3.5.3",
     "ts-node": "^10.9.2",
     "typechain": "^8.3.2",
     "typescript": "^5.8.3",

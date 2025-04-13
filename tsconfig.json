@@ -10,7 +10,6 @@
       "./node_modules/@nomicfoundation/hardhat-viem/types",
       "./node_modules/viem/types"
     ],
-    "outDir": "./dist",
     "rootDir": ".",
     "strict": true,
     "esModuleInterop": true,
@@ -25,10 +24,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": [
-    "scripts/**/*.ts",
-    "test/**/*.ts",
-    "hardhat.config.ts"
-  ],
+  "include": ["scripts/**/*.ts", "test/**/*.ts", "hardhat.config.ts"],
   "exclude": ["node_modules"]
 }

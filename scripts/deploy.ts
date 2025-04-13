@@ -1,27 +1,44 @@
-import { viem } from "hardhat";
-import { encodeFunctionData } from "viem";
+import hre from 'hardhat';
+const { ethers, upgrades } = hre;
+
+import fs from 'fs';
 
 async function main() {
-    const impl = await viem.deployContract("LukasV1");
-    console.log("Implementation:", impl.address);
+  const [deployer] = await ethers.getSigners();
+  console.log(`Deploying with the account: ${deployer.address}`);
 
-    const initializeData = encodeFunctionData({
-        abi: impl.abi,
-        functionName: "initialize",
-        args: [process.env.LKS_WALLET]
-    });
+  const LukasFactory = await ethers.getContractFactory('LukasV1');
 
-    console.log("initializeData:", initializeData);
+  const proxy = await upgrades.deployProxy(LukasFactory, [deployer.address], {
+    initializer: 'initialize',
+  });
+  await proxy.deployed();
 
-    const proxyAdmin = await viem.deployContract("ProxyAdmin");
-    console.log("ProxyAdmin:", proxyAdmin.address);
+  const proxyAddress = await proxy.getAddress();
+  console.log(`Proxy deployed at: ${proxyAddress}`);
 
-    const proxy = await viem.deployContract("TransparentUpgradeableProxy", [
-        impl.address,
-        proxyAdmin.address,
-        initializeData
-    ]);
-    console.log("Proxy:", proxy.address);
+  const implementationAddress =
+    await upgrades.erc1967.getImplementationAddress(proxyAddress);
+  const proxyAdminAddress =
+    await upgrades.erc1967.getAdminAddress(proxyAddress);
+
+  console.log(`Implementation deployed at: ${implementationAddress}`);
+  console.log(`Proxy admin address: ${proxyAdminAddress}`);
+
+  const deploymentData = {
+    CONTRACT_NAME: 'Lukas',
+    PROXY_ADDRESS: proxyAddress,
+    IMPLEMENTATION_ADDRESS: implementationAddress,
+    PROXY_ADMIN_ADDRESS: proxyAdminAddress,
+  };
+
+  fs.writeFileSync('deployment.json', JSON.stringify(deploymentData, null, 2));
+  console.log('Deployment data saved in deployment.json');
 }
 
-main().catch(console.error);
+main()
+  .then(() => process.exit(0))
+  .catch((error) => {
+    console.error('Error during deployment:', error);
+    process.exit(1);
+  });

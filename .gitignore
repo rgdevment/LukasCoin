@@ -21,6 +21,7 @@ ignition/deployments/chain-31337
 *.env
 *.pem
 *.key
+*.deployment.json
 
 # local config
 .hardhat
