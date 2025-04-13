@@ -27,6 +27,7 @@ ignition/deployments/chain-31337
 .hardhat
 .cache/
 artifacts/
+.openzeppelin/
 
 # ide
 .idea/
