@@ -29,7 +29,7 @@ const config: HardhatUserConfig = {
       url: 'https://polygon-rpc.com',
       chainId: 137,
       accounts: [process.env.LKS_PRIVATE_KEY!],
-      gasPrice: 100e9
+      gasPrice: 100e9,
     },
     amoy: {
       url: 'https://rpc-amoy.polygon.technology/',

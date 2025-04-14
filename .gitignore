@@ -1,5 +1,6 @@
 node_modules
 .env
+/deployment.json
 
 # Hardhat files
 /cache
@@ -21,7 +22,6 @@ ignition/deployments/chain-31337
 *.env
 *.pem
 *.key
-*.deployment.json
 
 # local config
 .hardhat
@@ -36,3 +36,4 @@ artifacts/
 *.sublime-workspace
 *.code-workspace
 *.swp
+

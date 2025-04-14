@@ -10,7 +10,11 @@ async function main() {
 
   const LukasFactory = await ethers.getContractFactory('LukasV1');
 
-  const deployOptions: any = { initializer: 'initialize', kind: 'uups', gasLimit: 10000000n };
+  const deployOptions: any = {
+    initializer: 'initialize',
+    kind: 'uups',
+    gasLimit: 10000000n,
+  };
   const proxy = await upgrades.deployProxy(
     LukasFactory,
     [deployer.address],
@@ -19,6 +23,8 @@ async function main() {
 
   const proxyAddress = await proxy.getAddress();
   console.log(`Proxy deployed at: ${proxyAddress}`);
+
+  await new Promise((resolve) => setTimeout(resolve, 30000));
 
   const slot = BigNumber.from(
     keccak256(toUtf8Bytes('eip1967.proxy.implementation')),
