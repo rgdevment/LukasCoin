@@ -1,6 +1,8 @@
 import hre from 'hardhat';
 const { ethers, upgrades } = hre;
 import fs from 'fs';
+import { BigNumber } from '@ethersproject/bignumber';
+import { keccak256, toUtf8Bytes } from 'ethers';
 
 async function main() {
   const [deployer] = await ethers.getSigners();
@@ -8,7 +10,7 @@ async function main() {
 
   const LukasFactory = await ethers.getContractFactory('LukasV1');
 
-  const deployOptions: any = { initializer: 'initialize', gasLimit: 6000000 };
+  const deployOptions: any = { initializer: 'initialize', kind: 'uups', gasLimit: 10000000n };
   const proxy = await upgrades.deployProxy(
     LukasFactory,
     [deployer.address],
@@ -17,6 +19,15 @@ async function main() {
 
   const proxyAddress = await proxy.getAddress();
   console.log(`Proxy deployed at: ${proxyAddress}`);
+
+  const slot = BigNumber.from(
+    keccak256(toUtf8Bytes('eip1967.proxy.implementation')),
+  ).sub(1);
+  const implSlotValue = await ethers.provider.getStorage(
+    proxyAddress,
+    slot.toHexString(),
+  );
+  console.log('Implementation slot value:', implSlotValue);
 
   const implementationAddress =
     await upgrades.erc1967.getImplementationAddress(proxyAddress);
