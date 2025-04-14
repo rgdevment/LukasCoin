@@ -51,7 +51,7 @@ To:
 
 ### 🔍 Contract Details
 
-- **Contract Address**: [0x267af0f9fd33603a73e29b31592f4d6476f6deb1](https://polygonscan.com/token/0x267af0f9fd33603a73e29b31592f4d6476f6deb1)
+- **Contract Address**: [0x31aD15D66F65445e313ec897d32f3C8f044aDdbd](https://polygonscan.com/token/0x31aD15D66F65445e313ec897d32f3C8f044aDdbd)
 - **Network**: Polygon PoS (ChainID: 137)
 - **Symbol**: LKS
 - **Decimals**: 18
@@ -68,7 +68,7 @@ To:
      - Block Explorer: https://polygonscan.com
 
 2. **Click "Import Token"** (MetaMask) or "Add Custom Token"
-3. **Paste contract address**: `0x267af0f9fd33603a73e29b31592f4d6476f6deb1`
+3. **Paste contract address**: `0x31aD15D66F65445e313ec897d32f3C8f044aDdbd`
 4. **Confirm details**:
 
 - Symbol: LKS
@@ -84,7 +84,7 @@ Ready! Your LKS will appear in your wallet.
 
 ### 🔗 Useful Links
 
-- [Verify Contract on Polygonscan](https://polygonscan.com/token/0x267af0f9fd33603a73e29b31592f4d6476f6deb1)
+- [Verify Contract on Polygonscan](https://polygonscan.com/token/0x31aD15D66F65445e313ec897d32f3C8f044aDdbd)
 - [Technical Support on GitHub](https://github.com/your-user/lukas-coin/issues)
 
 ## 🤝 How to Help
