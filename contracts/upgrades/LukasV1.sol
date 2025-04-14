@@ -22,8 +22,8 @@ UUPSUpgradeable
     bytes32 public constant PAUSER_ROLE = keccak256("PAUSER_ROLE");
     bytes32 public constant UPGRADER_ROLE = keccak256("UPGRADER_ROLE");
 
-    uint256 public constant MAX_SUPPLY = 12_000_000 * 10 ** 18;
-    uint256 public constant INITIAL_SUPPLY = 1_000_000 * 10 ** 18;
+    uint256 public constant MAX_SUPPLY = 42_000_000 * 10 ** 18;
+    uint256 public constant INITIAL_SUPPLY = 2_100_000 * 10 ** 18; //5%
 
     uint256[50] private __gap; //check in all versions
 

@@ -37,7 +37,7 @@ Para:
 
 ## 🌟 Casos de Uso LKS
 
-- **Acceso premium** a plataformas educativas.
+- **Acceso** a plataformas educativas.
 - **Votación** en el desarrollo de nuevas herramientas.
 - **Recompensas** por contribuir al banco de imágenes PECS 2.0.
 
@@ -51,7 +51,7 @@ Para:
 
 ### 🔍 Datos Técnicos del Contrato
 
-- **Dirección del Contrato**: [0x31aD15D66F65445e313ec897d32f3C8f044aDdbd](https://polygonscan.com/token/0x31aD15D66F65445e313ec897d32f3C8f044aDdbd)
+- **Dirección del Contrato**: [0x31EF5a8a8Fa124D7270543c1095A45381740c490](https://polygonscan.com/token/0x31EF5a8a8Fa124D7270543c1095A45381740c490)
 - **Red**: Polygon PoS (ChainID: 137)
 - **Símbolo**: LKS
 - **Decimales**: 18
@@ -68,7 +68,7 @@ Para:
      - Explorador: https://polygonscan.com
 
 2. **Haz clic en "Importar Token"** (MetaMask) o "Añadir Token Personalizado"
-3. **Pega la dirección del contrato**: `0x31aD15D66F65445e313ec897d32f3C8f044aDdbd`
+3. **Pega la dirección del contrato**: `0x31EF5a8a8Fa124D7270543c1095A45381740c490`
 4. **Confirma los detalles**:
 
 - Símbolo: LKS
@@ -84,7 +84,7 @@ Para:
 
 ### 🔗 Enlaces Útiles
 
-- [Verificar Contrato en Polygonscan](https://polygonscan.com/token/0x31aD15D66F65445e313ec897d32f3C8f044aDdbd)
+- [Verificar Contrato en Polygonscan](https://polygonscan.com/token/0x31EF5a8a8Fa124D7270543c1095A45381740c490)
 - [Soporte Técnico en GitHub](https://github.com/tu-usuario/lukas-coin/issues)
 
 ## 🤝 ¿Cómo Ayudar?

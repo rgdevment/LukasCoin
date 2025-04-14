@@ -37,7 +37,7 @@ To:
 
 ## 🌟 LKS Use Cases
 
-- **Premium access** to educational platforms.
+- **Access** to educational platforms.
 - **Voting** on new tool development.
 - **Rewards** for contributing to PECS 2.0 image bank.
 
@@ -51,7 +51,7 @@ To:
 
 ### 🔍 Contract Details
 
-- **Contract Address**: [0x31aD15D66F65445e313ec897d32f3C8f044aDdbd](https://polygonscan.com/token/0x31aD15D66F65445e313ec897d32f3C8f044aDdbd)
+- **Contract Address**: [0x31EF5a8a8Fa124D7270543c1095A45381740c490](https://polygonscan.com/token/0x31EF5a8a8Fa124D7270543c1095A45381740c490)
 - **Network**: Polygon PoS (ChainID: 137)
 - **Symbol**: LKS
 - **Decimals**: 18
@@ -68,7 +68,7 @@ To:
      - Block Explorer: https://polygonscan.com
 
 2. **Click "Import Token"** (MetaMask) or "Add Custom Token"
-3. **Paste contract address**: `0x31aD15D66F65445e313ec897d32f3C8f044aDdbd`
+3. **Paste contract address**: `0x31EF5a8a8Fa124D7270543c1095A45381740c490`
 4. **Confirm details**:
 
 - Symbol: LKS
@@ -84,7 +84,7 @@ Ready! Your LKS will appear in your wallet.
 
 ### 🔗 Useful Links
 
-- [Verify Contract on Polygonscan](https://polygonscan.com/token/0x31aD15D66F65445e313ec897d32f3C8f044aDdbd)
+- [Verify Contract on Polygonscan](https://polygonscan.com/token/0x31EF5a8a8Fa124D7270543c1095A45381740c490)
 - [Technical Support on GitHub](https://github.com/your-user/lukas-coin/issues)
 
 ## 🤝 How to Help

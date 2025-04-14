@@ -29,7 +29,7 @@ describe('LukasV1', function () {
       mintAmount,
     );
 
-    const MAX_SUPPLY = ethers.parseEther('12000000');
+    const MAX_SUPPLY = ethers.parseEther('42000000');
     const remainingMint = MAX_SUPPLY - (await lukas.totalSupply());
     await lukas.mint(await other.getAddress(), remainingMint);
     expect(await lukas.totalSupply()).to.equal(MAX_SUPPLY);
