@@ -4,7 +4,7 @@
 
 **A purpose-driven cryptocurrency: Enhancing learning and communication for autism**
 
-![Lukas Coin Logo](resources/images/lukas_coin_logo.png)
+![Lukas Coin Logo](resources/images/lukas_coin_logo_512.png)
 
 ## What is Lukas Coin?
 

@@ -4,7 +4,7 @@
 
 **Criptomoneda con causa: Potenciando el aprendizaje y la comunicación en el autismo**
 
-![Lukas Coin Logo](resources/images/lukas_coin_logo.png)
+![Lukas Coin Logo](resources/images/lukas_coin_logo_512.png)
 
 ## ¿Qué es Lukas Coin?
 
