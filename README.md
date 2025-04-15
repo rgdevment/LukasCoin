@@ -33,12 +33,12 @@ Es un guiño a lo cotidiano y a cómo pequeños cambios (como monedas o gestos) 
 
 ## 🚀 Pilares Tecnológicos
 
-| Tecnología     | Aplicación                                                   |
-| -------------- | ------------------------------------------------------------ |
-| BCI            | Interfaces cerebro-computadora para niños no verbales        |
-| PECS 2.0       | Banco de imágenes colaborativo creado por adultos autistas   |
-| Floortime      | Videojuegos que interpretan movimientos como lenguaje        |
-| Blockchain     | Transparencia total en donaciones y decisiones comunitarias  |
+| Tecnología | Aplicación                                                  |
+| ---------- | ----------------------------------------------------------- |
+| BCI        | Interfaces cerebro-computadora para niños no verbales       |
+| PECS 2.0   | Banco de imágenes colaborativo creado por adultos autistas  |
+| Floortime  | Videojuegos que interpretan movimientos como lenguaje       |
+| Blockchain | Transparencia total en donaciones y decisiones comunitarias |
 
 ---
 
@@ -75,17 +75,17 @@ Es un guiño a lo cotidiano y a cómo pequeños cambios (como monedas o gestos) 
 1. Abre tu billetera y selecciona la red **Polygon**
 2. Si no tienes Polygon configurada, usa los siguientes datos:
 
-    - Nombre: Polygon Mainnet
-    - RPC URL: https://polygon-rpc.com
-    - Chain ID: 137
-    - Símbolo: MATIC
-    - Explorador: https://polygonscan.com
+   - Nombre: Polygon Mainnet
+   - RPC URL: https://polygon-rpc.com
+   - Chain ID: 137
+   - Símbolo: MATIC
+   - Explorador: https://polygonscan.com
 
 3. Haz clic en 'Importar token' o 'Agregar token personalizado'
 4. Pega la dirección del contrato y confirma:
 
-    - Símbolo: LKS
-    - Decimales: 18
+   - Símbolo: LKS
+   - Decimales: 18
 
 ---
 

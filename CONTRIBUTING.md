@@ -68,4 +68,4 @@ Este proyecto es **Open Source** bajo la licencia MIT.
 Escríbenos o abre un issue en:  
 https://github.com/rgdevment/LukasCoin/issues
 
-¡Gracias por ser parte de este viaje!  
+¡Gracias por ser parte de este viaje!

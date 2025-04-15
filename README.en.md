@@ -33,12 +33,12 @@ It's a tribute to everyday life and how small changes (like coins or gestures) c
 
 ## Technological Pillars
 
-| Technology     | Application                                                      |
-| -------------- | ---------------------------------------------------------------- |
-| BCI            | Brain-computer interfaces for non-verbal children                |
-| PECS 2.0       | Collaborative image bank created by autistic adults              |
-| Floortime      | Video games interpreting movements as communication              |
-| Blockchain     | Total transparency in donations and community-driven decisions   |
+| Technology | Application                                                    |
+| ---------- | -------------------------------------------------------------- |
+| BCI        | Brain-computer interfaces for non-verbal children              |
+| PECS 2.0   | Collaborative image bank created by autistic adults            |
+| Floortime  | Video games interpreting movements as communication            |
+| Blockchain | Total transparency in donations and community-driven decisions |
 
 ---
 
@@ -75,17 +75,17 @@ It's a tribute to everyday life and how small changes (like coins or gestures) c
 1. Open your wallet and select the **Polygon** network
 2. If you don't have Polygon configured, use the following settings:
 
-  - Network Name: Polygon Mainnet
-  - RPC URL: https://polygon-rpc.com
-  - Chain ID: 137
-  - Currency Symbol: MATIC
-  - Explorer: https://polygonscan.com
+- Network Name: Polygon Mainnet
+- RPC URL: https://polygon-rpc.com
+- Chain ID: 137
+- Currency Symbol: MATIC
+- Explorer: https://polygonscan.com
 
 3. Click on 'Import Token' or 'Add Custom Token'
 4. Paste the contract address and confirm:
 
-  - Symbol: LKS
-  - Decimals: 18
+- Symbol: LKS
+- Decimals: 18
 
 ---
 
