@@ -12,17 +12,18 @@ Lukas Coin (LKS) is a non-profit solidarity cryptocurrency from Chile, focused o
 
 ## Table of Contents
 
-- What is Lukas Coin?
-- Our Vision
-- Why "Lukas"?
-- Technological Pillars
-- Use Cases
-- Technical Details
-- Token Metadata
-- Token Contract
-- How to Add LKS to Your Wallet
-- Donations & Collaboration
-- Resources & Useful Links
+- [What is Lukas Coin?](#what-is-lukas-coin)
+- [Our Vision](#our-vision)
+- [Why "Lukas"?](#why-lukas)
+- [Technological Pillars](#technological-pillars)
+- [Use Cases](#use-cases)
+- [Technical Details](#technical-details)
+- [Token Metadata](#token-metadata-infojson)
+- [Token Contract](#token-contract)
+- [How to Add LKS to Your Wallet](#how-to-add-lks-to-your-wallet)
+- [LKS & Collaboration](#lks--collaboration)
+- [How to Contribute](#how-to-contribute)
+- [Resources & Useful Links](#resources--useful-links)
 
 ---
 
@@ -124,7 +125,7 @@ https://polygonscan.com/token/0x31EF5a8a8Fa124D7270543c1095A45381740c490
 
 ---
 
-## Donations & Collaboration
+## LKS & Collaboration
 
 There are many ways to collaborate and be part of Lukas Coin:
 
@@ -134,14 +135,19 @@ There are many ways to collaborate and be part of Lukas Coin:
 
 You can also request LKS in exchange for a voluntary contribution at https://www.lukascoin.cl. Even though symbolic, they carry great value in supporting development, research, and community growth. They reflect the intrinsic desire to improve lives.
 
-If you'd like to support us financially, you can donate using:
+If you'd like to support us financially, you can donate using: ETH - POLYGON - BNB - LKS
 
-ETH - POLYGON - BNB - LKS
-
-Official Wallet:
-0xC8CA1999b506E403b458A59b59DF2868d1A258AE
+Official Wallet: `0xC8CA1999b506E403b458A59b59DF2868d1A258AE`
 
 Thank you for being part of this community 💙
+
+---
+
+## How to Contribute
+Check our guidelines and rules for contributing:
+View [CONTRIBUTING.md](CONTRIBUTING.md)
+
+---
 
 ---
 

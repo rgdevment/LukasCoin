@@ -10,19 +10,18 @@ Lukas Coin (LKS) es una criptomoneda solidaria chilena enfocada en mejorar la ca
 
 ## Tabla de Contenido
 
-- [¿Qué es Lukas Coin?](#que-es-lukas-coin)
-- [Nuestra Visión](#nuestra-vision)
-- [¿Por qué Lukas?](#por-que-lukas)
-- [Pilares Tecnológicos](#pilares-tecnologicos)
+- [¿Qué es Lukas Coin?](#qué-es-lukas-coin)
+- [Nuestra Visión](#nuestra-visión)
+- [¿Por qué Lukas?](#por-qué-lukas)
+- [Pilares Tecnológicos](#pilares-tecnológicos)
 - [Casos de Uso](#casos-de-uso)
-- [Detalles Técnicos](#detalles-tecnicos)
+- [Detalles Técnicos](#detalles-técnicos)
 - [Metadata Token](#metadata-token-infojson)
 - [Contrato del Token](#contrato-del-token)
-- [Cómo agregar LKS a tu wallet](#como-agregar-lks-a-tu-wallet)
-- [Cómo obtener LKS](#como-obtener-lks)
-- [Cómo contribuir](#como-contribuir)
-- [Donaciones y Colaboración](#donaciones-y-colaboracion)
-- [Recursos y enlaces útiles](#recursos-y-enlaces-utiles)
+- [Cómo agregar LKS a tu wallet](#cómo-agregar-lks-a-tu-wallet)
+- [LKS y Colaboración](#donaciones-y-colaboración)
+- [Cómo contribuir](#cómo-contribuir)
+- [Recursos y enlaces útiles](#recursos-y-enlaces-útiles)
 
 ---
 
@@ -126,14 +125,22 @@ https://polygonscan.com/token/0x31EF5a8a8Fa124D7270543c1095A45381740c490
 
 ---
 
-## Cómo obtener LKS
+## LKS y Colaboración
+
+Hay muchas formas de colaborar y ser parte de Lukas Coin:
 
 - Contribuyendo activamente al proyecto.
 - Participando en eventos, votaciones y desarrollo.
-- Donando en MATIC, ETH o BNB a nuestra wallet oficial.
+- Aportar con desarrollo, sugerencias, Pull Requests, nuevas tecnologías, ideas, imágenes, recursos o propuestas.
+- Participar en eventos comunitarios, actividades colaborativas o discusiones abiertas.
+- Difundir el proyecto en redes y ayudarnos a llegar a más familias y desarrolladores.
 
-Wallet Oficial (multi-red):
-0xC8CA1999b506E403b458A59b59DF2868d1A258AE
+También puedes solicitar tus LKS por un aporte voluntario desde https://www.lukascoin.cl. Aunque son simbólicos, aportan mucho valor en desarrollo, investigación y crecimiento de la comunidad. Además, reflejan el valor intrínseco de querer mejorar la vida de todos.
+
+Si deseas apoyarnos económicamente puedes enviar donaciones en: ETH - POLYGON - BNB - LKS
+Wallet Oficial: `0xC8CA1999b506E403b458A59b59DF2868d1A258AE`
+
+Gracias por ser parte de esta comunidad 💙
 
 ---
 
@@ -142,25 +149,6 @@ Wallet Oficial (multi-red):
 Revisa nuestras guías y lineamientos para contribuir:
 
 Ver [CONTRIBUTING.md](CONTRIBUTING.md)
-
----
-
-## Donaciones y Colaboración
-
-Hay muchas formas de colaborar y ser parte de Lukas Coin:
-
-- Aportar con desarrollo, sugerencias, Pull Requests, nuevas tecnologías, ideas, imágenes, recursos o propuestas.
-- Participar en eventos comunitarios, actividades colaborativas o discusiones abiertas.
-- Difundir el proyecto en redes y ayudarnos a llegar a más familias y desarrolladores.
-
-También puedes solicitar tus LKS por un aporte voluntario desde https://www.lukascoin.cl. Aunque son simbólicos, aportan mucho valor en desarrollo, investigación y crecimiento de la comunidad. Además, reflejan el valor intrínseco de querer mejorar la vida de todos.
-
-Si deseas apoyarnos económicamente puedes enviar donaciones en: ETH - POLYGON - BNB - LKS
-
-Wallet Oficial:
-0xC8CA1999b506E403b458A59b59DF2868d1A258AE
-
-Gracias por ser parte de esta comunidad 💙
 
 ---
 
