@@ -60,6 +60,24 @@ Es un guiño a lo cotidiano y a cómo pequeños cambios (como monedas o gestos) 
 
 ---
 
+## ℹ️ Metadata Token (info.json)
+
+Puedes encontrar la metadata oficial de Lukas Coin (LKS) para integración en wallets, exploradores y listas de tokens en el siguiente archivo:
+
+[Ver info.json](resources/info.json)
+
+Incluye:
+
+- Nombre
+- Símbolo
+- Decimales
+- Logo
+- Red
+- Dirección del contrato
+- Enlaces útiles
+
+---
+
 ## 🔍 Contrato del Token
 
 - Dirección del contrato:  

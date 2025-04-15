@@ -60,6 +60,24 @@ It's a tribute to everyday life and how small changes (like coins or gestures) c
 
 ---
 
+## ℹ️ Metadata Token (info.json)
+
+You can find the official metadata for Lukas Coin (LKS) to integrate into wallets, explorers, and token lists in the following file:
+
+[Ver info.json](resources/info.json)
+
+This file includes:
+
+- Name 
+- Symbol 
+- Decimals 
+- Logo 
+- Network 
+- Contract Address 
+- Useful Links
+
+---
+
 ## Token Contract
 
 - Contract Address:  
