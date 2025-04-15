@@ -147,7 +147,6 @@ Thank you for being part of this community 💙
 Check our guidelines and rules for contributing:
 View [CONTRIBUTING.md](CONTRIBUTING.md)
 
----
 
 ---
 

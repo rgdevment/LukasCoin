@@ -19,7 +19,7 @@ Lukas Coin (LKS) es una criptomoneda solidaria chilena enfocada en mejorar la ca
 - [Metadata Token](#metadata-token-infojson)
 - [Contrato del Token](#contrato-del-token)
 - [Cómo agregar LKS a tu wallet](#cómo-agregar-lks-a-tu-wallet)
-- [LKS y Colaboración](#donaciones-y-colaboración)
+- [LKS y Colaboración](#lks--colaboración)
 - [Cómo contribuir](#cómo-contribuir)
 - [Recursos y enlaces útiles](#recursos-y-enlaces-útiles)
 
@@ -125,7 +125,7 @@ https://polygonscan.com/token/0x31EF5a8a8Fa124D7270543c1095A45381740c490
 
 ---
 
-## LKS y Colaboración
+## LKS & Colaboración
 
 Hay muchas formas de colaborar y ser parte de Lukas Coin:
 
