@@ -22,6 +22,7 @@ Lukas Coin (LKS) is a non-profit solidarity cryptocurrency from Chile, focused o
 - [Token Contract](#token-contract)
 - [How to Add LKS to Your Wallet](#how-to-add-lks-to-your-wallet)
 - [LKS & Collaboration](#lks--collaboration)
+- [Get LKS on Uniswap](#-get-lks-on-uniswap)
 - [How to Contribute](#how-to-contribute)
 - [Resources & Useful Links](#resources--useful-links)
 
@@ -140,6 +141,14 @@ If you'd like to support us financially, you can donate using: ETH - POLYGON - B
 Official Wallet: `0xC8CA1999b506E403b458A59b59DF2868d1A258AE`
 
 Thank you for being part of this community 💙
+
+---
+
+## 🔁 Get LKS on Uniswap
+
+You can acquire Lukas Coin (LKS) on Uniswap with POL (MATIC) on the Polygon network:
+
+👉 [Get LKS on Uniswap](https://app.uniswap.org/#/swap?chain=polygon&outputCurrency=0x31EF5a8a8Fa124D7270543c1095A45381740c490)
 
 ---
 
